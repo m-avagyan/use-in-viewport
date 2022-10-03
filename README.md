@@ -36,6 +36,10 @@ export default Example;
 
 **Options**
 
+- `root`: element scroll area (by default `document.body`)
+- `rootMargin`: element margin from root (by default `0px`)
+- `threshold`: element visibility threshold (by default `0`)
+
 ```javascript
 import React, { useRef } from 'react';
 import useInViewport from 'use-in-viewport';
